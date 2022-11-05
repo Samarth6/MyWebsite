@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Contact Me</title>
+</head>
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+    body {
+        background: url("https://i.pinimg.com/originals/a4/66/48/a46648c5f5d805e2cad4b02243e863d2.jpg");
+        font-family: Montserrat;
+        text-align: center;
+        color: #ffffff;
+        font-size: 20px;
+        padding-top: 36vh;
+        overflow: hidden;
+    }
+    
+    div {
+        display: inline-block;
+        overflow: hidden;
+        white-space: nowrap;
+    }
+    
+    div:first-of-type {
+        animation: appear 6s infinite;
+    }
+    
+    div:last-of-type {
+        animation: reveal 6s infinite;
+    }
+    
+    div:last-of-type span {
+        font-size: 33px;
+        color: #050505;
+        animation: slide 6s infinite;
+    }
+    
+    @keyframes appear {
+        0% {
+            opacity: 0;
+        }
+        20% {
+            opacity: 1;
+        }
+        80% {
+            opacity: 1;
+        }
+        100% {
+            opacity: 0;
+        }
+    }
+    
+    @keyframes slide {
+        0% {
+            margin-left: -800px;
+        }
+        20% {
+            margin-left: -800px;
+        }
+        35% {
+            margin-left: 0px;
+        }
+        100% {
+            margin-left: 0px;
+        }
+    }
+    
+    @keyframes reveal {
+        0% {
+            opacity: 0;
+            width: 0px;
+        }
+        20% {
+            opacity: 1;
+            width: 0px;
+        }
+        30% {
+            width: 655px;
+        }
+        80% {
+            opacity: 1;
+        }
+        100% {
+            opacity: 0;
+            width: 655px;
+        }
+    }
+</style>
+
+<div>
+    <li style="color: black;">
+        <div style="color: black;">Contact Me</div>
+    </li>
+    <ul>
+        <li style="color: black;"><u><strong>Mobile No.:</u></strong> +91 9370715421</li>
+        <li style="color: black;"><u><strong>Email I'd:</strong></u></strong>samarthkamble364@gmail.com (Personal mail)<br>kamblesamarth364@gmail.com(Work mail)</li>
+        <li style="color: black;"><a style="color: black;" href="https://www.linkedin.com/in/samarth-kamble-058a26228/"><strong>linkedin:</strong></a></li>
+    </ul>
+</div>
+</body>
+
+</html>

@@ -1,0 +1,2 @@
+allowed: /Pagal Idher Kuch nahi hai but You are on right path/
+disallowed:/*index.html/
